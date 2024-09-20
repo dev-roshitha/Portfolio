@@ -13,7 +13,7 @@ import "./sass/main.scss"
 
 
 function App(){
-    console.log("UPDATE")
+    console.log("UPDATE NEWW")
     return(
         <div className="app-wrapper">
             <div className="app-inner">
