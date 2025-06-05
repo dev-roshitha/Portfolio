@@ -10,10 +10,6 @@ import eduAccordion from "./eduList";
 
 const Education = () => {
 
-    useEffect(() => {
-      document.title = "Education | Dev Roshitha"
-    }, [])
-
     return (
         <section className="education-section" id="education">
             <div className="top-wrapper">

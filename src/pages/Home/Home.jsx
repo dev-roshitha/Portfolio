@@ -6,13 +6,6 @@ import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 const Home = () => {
 
-  useEffect(() => {
-    document.title = "Portfolio | Dev Roshitha"
-
-
-    
-  }, [])
-
   const [typingText] = useTypewriter({
     words: ["Frontend Developer", "Who Hunger In Javascript", "And Loves Coffe ❤️️☕️"],
     loop: {},

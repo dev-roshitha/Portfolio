@@ -6,10 +6,6 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 const Projects = () => {
 
-    useEffect(() => {
-      document.title = "Projects | Dev Roshitha"
-    }, [])
-
     gsap.registerPlugin(ScrollTrigger)
 
     useEffect(() => {

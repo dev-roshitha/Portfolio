@@ -1,14 +1,10 @@
-import React, { useEffect } from "react";
+//import React, { useEffect } from "react";
 import webDesign from "../../img/design.png"
 import webDeveloping from "../../img/developing.png"
 //import gsap from "gsap"
 //import ScrollTrigger from "gsap/src/ScrollTrigger"
 
 const About  = () => {
-
-    useEffect(() => { 
-      document.title = "About | Dev Roshitha"
-    }, [])
 
     // gsap.registerPlugin(ScrollTrigger)
     // useEffect(() => {
