@@ -6,7 +6,7 @@ import Home from "./pages/Home/Home"
 import About from "./pages/About/About"
 import Education from "./pages/Education/Education"
 import Projects from "./pages/Projects/Projects"
-import { Route, Routes} from "react-router-dom"
+//import { Route, Routes} from "react-router-dom"
 //import Snowfall from 'react-snowfall'
 import "./sass/main.scss"
 
@@ -19,13 +19,16 @@ function App(){
                 {/* <Snowfall />  */}
                 <Header />
                 <Navbar />
-
-                <Routes>
+                <Home/>
+                <About/>
+                <Education/>
+                <Projects/>
+                {/* <Routes>
                     <Route exact path="/dev.roshitha" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/education" element={<Education />} />
                     <Route path="/projects" element={<Projects />} />
-                </Routes>
+                </Routes> */}
 
                 <MobileNavBar />
             </div>

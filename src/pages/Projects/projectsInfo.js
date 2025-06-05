@@ -1,6 +1,5 @@
 import pasyaleLogo from "../../img/pasyale.png";
 import dasuniLogo from "../../img/dasuni.png";
-import lakefieldLogo from "../../img/lakefield.jpg";
 import Weather from "../../img/weather.jpg";
 import Booking from "../../img/booking.jpg";
 import EComLogo from "../../img/ecom.jpg"
@@ -20,13 +19,6 @@ const projectsInfo = [
         imgSrc: dasuniLogo,
         link: "https://dasuni.lk",
         altText: "dasuni"
-    },
-    {
-        title: "Hotel Lakefield",
-        content: "Customer Registration System ",
-        imgSrc: lakefieldLogo,
-        link: "https://drive.google.com/file/d/1AxSp8QlixA68wJtRY2djjdCpeBa6Qosj/view",
-        altText: "lakefield"
     },
     {
         title: "Weather App | React",

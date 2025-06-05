@@ -3,3 +3,5 @@ gsap-bonus.tgz
 .vscode
 build
 package-lock.json
+# Local Netlify folder
+.netlify

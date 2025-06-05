@@ -15,7 +15,7 @@ const Education = () => {
     }, [])
 
     return (
-        <>
+        <section className="education-section" id="education">
             <div className="top-wrapper">
               <div className="contentTitle titleHead">
                   <hr className="title-line"/>
@@ -48,7 +48,7 @@ const Education = () => {
                         })}
                 </div>
             </div>
-        </>
+        </section>
     );
 }
 

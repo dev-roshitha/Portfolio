@@ -1,27 +1,27 @@
 import React from "react"
-import { NavLink } from "react-router-dom"
+//import { NavLink } from "react-router-dom"
 
 const MobileNavBar = () => {
   return(
-    <div className="mobileMenuWrapper">
+    <section className="mobileMenuWrapper">
       <div className="mobileNav">
         <div className="menuItemWrapper">
-          <NavLink to="/dev.roshitha" className="listItem">
+          <a href="#home" className="listItem">
             <i className="fa-solid fa-house"></i><br/>
             <span className="spanListMobile">Home</span>
-          </NavLink>
-          <NavLink to="/about" className="listItem">
+          </a>
+          <a href="#about" className="listItem">
             <i className="fa-solid fa-circle-info"></i><br/>
             <span className="spanListMobile">About</span>
-          </NavLink>
-          <NavLink to="/education" className="listItem">
+          </a>
+          <a href="#education" className="listItem">
             <i className="fa-solid fa-graduation-cap"></i><br/>
             <span className="spanListMobile">Education</span>
-          </NavLink>
-          <NavLink to="/projects" className="listItem">
+          </a>
+          <a href="#projects" className="listItem">
             <i className="fa-solid fa-file-code"></i><br/>
             <span className="spanListMobile">Projects</span>
-          </NavLink>
+          </a>
         </div>
       </div>
 
@@ -45,7 +45,7 @@ const MobileNavBar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )}
 
 export default MobileNavBar;

@@ -23,7 +23,7 @@ const Projects = () => {
     }, [])
 
     return(
-        <>
+        <section className="project-section" id="projects">
         
             <div className="pro-box">
                 <div className="contentTitle titleHead">
@@ -48,7 +48,7 @@ const Projects = () => {
                     )
                 })}
             </div>
-        </>
+        </section>
     )
 }
 

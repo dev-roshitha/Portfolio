@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
-import { NavLink } from "react-router-dom"
+//import { NavLink } from "react-router-dom"
+import { Link } from 'react-scroll'
 import gsap from "gsap"
 
 const Navbar = () => {
@@ -15,45 +16,40 @@ const Navbar = () => {
   })
   }, [])
 
-  useEffect(() => {
-    const handleMouseOver = () => {
-      setClassName('span-nav')
-    }
-    const handleMouseOut = () => {
-      setClassName('')
-    }
-    document.querySelector('.navigation').addEventListener("mouseover", handleMouseOver);
-    document.querySelector('.navigation').addEventListener("mouseout", handleMouseOut);
-
-    }, [])
+  const handleMouseOver = () => {
+    setClassName('span-nav')
+  }
+  const handleMouseOut = () => {
+    setClassName('')
+  }
 
   return(<>
-      <div className={`navigation ${className}`} id="naviSpan">
+      <div className={`navigation ${className}`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} id="naviSpan">
         <div className="inner-navigation">
           <ul className="links">
             <li className="link">
-              <NavLink to="/dev.roshitha" className="listItems">
+              <Link to="home" offset={-150} smooth={true} duration={500} className="listItems">
                 <i className="fa-solid fa-house"></i>
                 <span className="spanList">Home</span>
-              </NavLink>
+              </Link>
             </li>
             <li className="link">
-              <NavLink to="/about" className="listItems">
+              <Link to="about" smooth={true} duration={500} className="listItems">
                 <i className="fa-solid fa-circle-info"></i>
                 <span className="spanList">About</span>
-              </NavLink>
+              </Link>
             </li>
             <li className="link">
-              <NavLink to="/education" className="listItems">
+              <Link to="education" smooth={true} duration={500} className="listItems">
                 <i className="fa-solid fa-graduation-cap"></i>
                 <span className="spanList">Education</span>
-              </NavLink>
+              </Link>
             </li>
             <li className="link">
-              <NavLink to="/projects" className="listItems">
+              <Link to="projects" smooth={true} duration={500} className="listItems">
                 <i className="fa-solid fa-file-code"></i>
                 <span className="spanList">Projects</span>
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>

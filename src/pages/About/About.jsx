@@ -7,14 +7,14 @@ import webDeveloping from "../../img/developing.png"
 const About  = () => {
 
     useEffect(() => { 
-        document.title = "About | Dev Roshitha"
+      document.title = "About | Dev Roshitha"
     }, [])
 
     // gsap.registerPlugin(ScrollTrigger)
     // useEffect(() => {
     // }, [])
 
-    return(<>
+    return(<section className="about-section" id="about">
             <div className="contentTitle titleHead about-wrapper">
                 <hr className="title-line"/>
                 <h2 className="light-heading">I'm <span className="style-word">flexible</span> with these</h2>
@@ -74,7 +74,7 @@ const About  = () => {
                 </div>
             </div>
         </div>
-    </>)
+    </section>)
 }
 
 export default About
