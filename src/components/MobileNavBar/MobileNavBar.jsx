@@ -14,10 +14,10 @@ const MobileNavBar = () => {
             <i className="fa-solid fa-circle-info"></i><br/>
             <span className="spanListMobile">About</span>
           </a>
-          <a href="#education" className="listItem">
+          {/* <a href="#education" className="listItem">
             <i className="fa-solid fa-graduation-cap"></i><br/>
             <span className="spanListMobile">Education</span>
-          </a>
+          </a> */}
           <a href="#projects" className="listItem">
             <i className="fa-solid fa-file-code"></i><br/>
             <span className="spanListMobile">Projects</span>
