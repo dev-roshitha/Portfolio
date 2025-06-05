@@ -39,12 +39,12 @@ const Navbar = () => {
                 <span className="spanList">About</span>
               </Link>
             </li>
-            <li className="link">
+            {/* <li className="link">
               <Link to="education" smooth={true} duration={500} className="listItems">
                 <i className="fa-solid fa-graduation-cap"></i>
                 <span className="spanList">Education</span>
               </Link>
-            </li>
+            </li> */}
             <li className="link">
               <Link to="projects" smooth={true} duration={500} className="listItems">
                 <i className="fa-solid fa-file-code"></i>

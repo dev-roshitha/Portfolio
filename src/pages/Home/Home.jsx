@@ -69,7 +69,17 @@ const Home = () => {
           <div className="details-wrapper">
           <hr className="title-line"/>
                 <h2 className="light-heading">About <span className="style-word">Me</span></h2>
-                <p>Hello im Roshitha Ranasinghe and i am a frontend developer. And also im a degree holder in bachelor of information technology(BIT) Hons at Lincoln university and HDCS(Higher Diploma in Computer Science) holder at Infortec International Asia Campus(IIAC) and . Interested in web application development  using latest web technologies and frameworks (ReactJS, NodeJS, Mongodb, Bootstrap) I hope  to be a mobile application developer in my future. Im also passionate about learn new things quickly. build new products by applying software engineering concepts and hunger to work with cutting-edge technologies.</p>
+                <div className="description">
+                  <p>Hi, I'm Roshitha Ranasinghe
+                    I'm a passionate Frontend Developer with a strong academic background and a love for creating modern, responsive web applications. I hold a Bachelor of Information Technology (Hons) from Lincoln University and a Higher Diploma in Computer Science from Infortec International Asia Campus (IIAC).
+                  </p>
+                  <p>
+                    My interests lie in web application development using the latest technologies like ReactJS, NodeJS, MongoDB, and Bootstrap. I'm always eager to learn, adapt quickly to new tools and trends, and bring software engineering principles to every project I build.
+                  </p>
+                  <p>
+                    Looking ahead, I aspire to grow into a mobile application developer and continue working with cutting-edge technologies that push the boundaries of user experience and performance.
+                  </p>
+                </div>
           </div>
         </div>
       </section>

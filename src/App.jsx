@@ -21,7 +21,7 @@ function App(){
                 <Navbar />
                 <Home/>
                 <About/>
-                <Education/>
+                {/* <Education/> */}
                 <Projects/>
                 {/* <Routes>
                     <Route exact path="/dev.roshitha" element={<Home />} />
